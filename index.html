@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5149762f97.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p><span class="auto-input"></span></p>
+                <h1>Hi! I'm <span>Md Gufran</span><br> From Delhi, India</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!------------------------------about-------------------------------------->
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                
+                <div class="about-col-1">
+                    <img src="images/mdgufran.jpeg" height="790">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br>
+                    <p>Heyy !! My Name is MD Gufran, I'm in college right now and Pursue BTech [ Computer Science & Engineering.]<br><br>
+
+                        I started out as a left brainer and enjoyed coding using HTML, CSS & JAVASCRIPT in the early days of high school. Couple years later I developed an addiction for web design and I'm enthusiastic about making designs look and feel good through front-end & Back-end development. I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best.I am ambitious and driven. I thrive on challenge and constantly set goals for myself, so I have something to strive towards. Coding is ❤️ <br><br>
+                        
+                        I'm a cheerful person with decent marketing skills. I fancy teaching and learning anything website related. In my spare time, I sleep, and hunt for trophies on my PS5.<br><br>
+                        
+                        A brief list of tech goodies I've been using:<br>
+                        
+                        👨‍🎨 Figma<br>
+                        👨‍🎨 Adobe Xd<br>
+                        👨‍🎨 Visual Studio Code <br>
+                        👨‍🎨 Android Studio<br>
+                        💻 HTML, SCSS, JS<br>
+                        💻 Vue, React, Next.js<br>
+                        💻 Storybook<br>
+                        💻 Handlebars<br>
+                        💻 C [ Programming Language ]<br>
+                        💻 Java<br></p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX Designing</span><br>Designing user-centered interfaces</li>
+                                <li><span>Web Development</span><br>Developing dynamic websites</li>
+                                <li><span>Data Analytics</span><br>Bringing raw data to life</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>.</span><br>.</li>
+                                <li><span>.</span><br>.</li>
+                                <li><span>.</span><br>.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2022 - 2026</span><br>B.Tech from Dronacharya Group of Institute, Greator Noida</li>
+                                <li><span>2019 - 2021</span><br>Higher and Senior Secondary Schooling from CBSE</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-----------------------------------Sevices-------------------------------------->    
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Sevices</h1>
+        <div class="services-list">
+          
+         <div>
+            <i class="fa-brands fa-codepen"></i> 
+            <h2>UI/UX Design</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
+            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+         </div>
+          
+         <div>
+            <i class="fa-solid fa-laptop-code"></i>
+            <h2>Web Developement</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
+            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+         </div>
+          
+         <div>
+            <i class="fa-sharp fa-solid fa-diagram-project"></i>
+            <h2>Data Analytics</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
+            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+         </div>
+        
+        </div>
+    </div>
+   </div> 
+
+<!-----------------------------------Work-------------------------------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Design img.jpg">
+                <div class="layer">
+                    <h3><strong>UI/UX Design Projects</strong></h3>
+                    <p>Click below to get an insight into the world of designing</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Developer img.jpg">
+                <div class="layer">
+                    <h3><strong>Web Development Projects</strong></h3>
+                    <p>Click below to see some of my amazing development work</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Data analyst img.jpg">
+                <div class="layer">
+                    <h3><strong>Data Analytics Projects</strong></h3>
+                    <p>Click below to witness how I bring raw data to life</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <a  href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!---------------------------------Contact---------------------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>gufranbareilly@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-phone-volume"></i>+91-8130669169</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/mdgufranyt"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/mdgufranyt"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/mdgufranyt"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="#" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email ID" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Send Message</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © MD Gufran. Made with <i class="fa-sharp fa-solid fa-heart"></i> by MD Gufran</p>
+    </div>
+</div>
+
+
+
+<!---------------------------------------JavaScript-------------------------------------------->
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typed = new Typed(".auto-input",{
+        strings: ["UI/UX DESIGNER", "WEB DEVELOPER", "DATA ANALYST", "FREELANCER"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true
+    })
+</script>
+
+<script>
+    
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+    
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyEhizANGf_DKmv-hNFNVOmB604P58yzLC7sBwB2jqQOdhwt3UoF17T0I8mhhgcyrcF/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Hurray!! Your message is sent successfully"
+            setTimeout(function(){
+                msg.innerHTML =""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+</html>
