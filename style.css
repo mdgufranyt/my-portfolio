@@ -95,7 +95,8 @@ nav ul li a:hover::after{
 }
 
 .about-col-1 img{
-    width: 100%;
+    
+    width: 1;
     border-radius: 15px;
 }
 
@@ -355,7 +356,7 @@ nav .fas{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/phone\ bg.png);
+        background-image: url(#);
     }
     .header-text{
         margin-top: 50%;
